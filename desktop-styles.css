@@ -89,7 +89,7 @@ body {
 .why-easybank {
   display: flex;
   flex-direction: column;
-  background-color: hsl(0, 0%, 98%);
+  background-color: hsl(220, 13%, 95%);
 }
 
 .why-easybank-heading {
