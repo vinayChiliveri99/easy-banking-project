@@ -147,13 +147,13 @@ body {
 .article-content {
   display: flex;
   margin-left: 10vw;
-  margin-right: 5vw;
+  margin-right: 10vw;
   margin-top: 5vh;
 }
 
 #article-images {
   height: 200px;
-  width: 280px;
+  width: 260px;
   border-radius: 10px 10px 0 0;
 }
 
