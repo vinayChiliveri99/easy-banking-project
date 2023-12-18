@@ -295,14 +295,3 @@ body {
   cursor: pointer;
   color: hsl(136, 65%, 51%);
 }
-
-/*
-  .first-image {
-  order: 2;
-  width: 60vw;
-  border: 1px solid black;
-  background: url('./images/bg-intro-mobile.svg');
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-*/
