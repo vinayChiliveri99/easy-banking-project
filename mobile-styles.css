@@ -1,0 +1,216 @@
+body {
+  margin: 0;
+  height: 100vh;
+  width: 100vw;
+  font-size: 18px;
+  overflow-x: hidden;
+  color: #9698a6;
+  font-family: 'Public Sans', sans-serif;
+}
+
+.header-images {
+  padding: 2vh;
+}
+
+.nav-bar {
+  position: absolute;
+  display: none;
+  height: 100vh;
+  width: 100vw;
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.7),
+    rgba(255, 255, 255, 0.5)
+  );
+  margin: 6vh 0vw 0 0vw;
+  border-radius: 5px;
+}
+.nav-bar ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  margin: 20px auto 0;
+  height: 30vh;
+  width: 70vw;
+  background: white;
+}
+.nav-bar li {
+  list-style-type: none;
+  text-align: center;
+  margin-right: 50px;
+  line-height: 2em;
+  color: hsl(233, 26%, 24%);
+}
+
+.header {
+  display: flex;
+  width: 100vw;
+  background-color: white;
+  justify-content: space-between;
+  z-index: 1;
+  position: absolute;
+}
+
+.header .req-btn {
+  display: none;
+}
+
+.first-image {
+  background: url('./images/bg-intro-mobile.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#mobile-image {
+  width: 100vw;
+  margin-top: -20vh;
+}
+
+.section-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: space-between;
+}
+
+#next-gen-quote {
+  font-size: 45px;
+  font-weight: 300;
+  color: hsl(233, 26%, 24%);
+  padding: 20px 10px 0px 10px;
+  text-align: center;
+  margin: 10px 10px 5px 10px;
+}
+
+#next-gen-desc {
+  text-align: justify;
+  padding: 20px 25px 0;
+  margin: 20px;
+  line-height: 1.5em;
+}
+
+.req-btn {
+  align-self: center;
+  border-radius: 40px;
+  background-image: linear-gradient(
+    to right,
+    hsl(136, 65%, 51%),
+    hsl(192, 70%, 51%)
+  );
+  font-size: 18px;
+  font-weight: 300;
+  color: white;
+  padding: 15px;
+  width: 40vw;
+  margin: 20px;
+  border: none;
+}
+
+.why-easybank {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px 0;
+  margin: 10px;
+  background: hsl(0, 0%, 98%);
+}
+
+.why-easybank img {
+  display: block;
+  height: 100px;
+  width: 100px;
+}
+
+.inner-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#why-easybank {
+  color: hsl(233, 26%, 24%);
+  font-weight: 300;
+  font-size: 45px;
+  text-align: center;
+  /*why easy bank text goes here*/
+}
+
+#speciality {
+  color: hsl(233, 26%, 24%);
+  font-weight: 400;
+  /*related to speciality*/
+}
+
+#description {
+  line-height: 1.5em;
+  margin: 0 25px 30px 25px;
+  text-align: center;
+  text-wrap: wrap;
+}
+
+.articles {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+  padding: 100px 0;
+}
+
+#latest-heading {
+  font-weight: 400;
+  font-size: 40px;
+  color: hsl(233, 26%, 24%);
+}
+
+#article-images {
+  border-radius: 10px 10px 0 0;
+  width: 20em;
+}
+
+.art-desc {
+  padding: 30px;
+}
+
+#author {
+  font-size: 15px;
+  /*author related content goes here*/
+}
+
+.articles h4 {
+  font-size: 20px;
+  color: hsl(233, 26%, 24%);
+  padding: 0;
+}
+
+.receive-money,
+.restaurant,
+.plane,
+.confetti {
+  background-color: hsl(0, 0%, 98%);
+  margin: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer {
+  margin: 10px;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: hsl(233, 26%, 24%);
+}
+
+.social-sites img {
+  padding: 5px;
+  margin-top: 20px;
+  width: 25px;
+}
+
+.about-us ul {
+  list-style-type: none;
+  text-align: center;
+  margin-right: 50px;
+  line-height: 2em;
+}
