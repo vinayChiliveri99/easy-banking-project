@@ -41,8 +41,8 @@ body {
 
 .desktop-div1 {
   display: flex;
-  margin-left: 10vw;
   justify-content: space-between;
+  background-color: rgb(250, 250, 250);
 }
 
 .section-1 {
@@ -51,7 +51,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  /* margin-left: 5vw; */
+  margin-left: 10vw;
 }
 
 #next-gen-quote {
