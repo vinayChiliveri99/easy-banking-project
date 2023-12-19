@@ -129,7 +129,6 @@ body {
 .articles {
   display: flex;
   flex-direction: column;
-  height: 100vh;
   /* align-items: center;
   justify-content: center; */
   background-color: hsl(0, 0%, 98%);
@@ -170,6 +169,7 @@ body {
   align-items: center;
   background-color: white;
   margin-right: 25px;
+  margin-bottom: 10vh;
 }
 
 .art-desc {
